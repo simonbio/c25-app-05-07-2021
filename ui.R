@@ -87,7 +87,7 @@ ui <- dashboardPage(
               ), 
               
               h4("Author", strong("SKOE")),
-              a("R code for this app",target="_blank",href="")
+              a("R code for this app",target="_blank",href="https://github.com/simonbio/c25-app-05-07-2021")
               
       )
     )
