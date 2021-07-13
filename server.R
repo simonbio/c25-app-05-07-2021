@@ -9,8 +9,9 @@ server <- function(input, output, session) {
             'plotly',
             'lubridate',
             'rvest')
-  
+
   pkg_setup(pkgs)
+
   
   #### FETCH AND PREPARE DATA
   
