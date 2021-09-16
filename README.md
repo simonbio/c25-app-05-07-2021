@@ -9,10 +9,22 @@ The Risk versus Reward analysis is based on the article: [Quantitative Stock Ana
 
 # How to run
 
-```git
+Either,
+
+```bash
 git clone https://github.com/simonbio/c25-app-05-07-2021
 ```
 
-```r
+```bash
 R -e "shiny::runApp('c25-app-05-07-2021/')"
 ```
+
+Or to deploy the containerised app and deployment environment,
+
+```bash
+sudo docker build -t c25-app-image .
+
+sudo docker run --rm -p 3838:3838 c25-app-image
+```
+
+You can then access the Shiny app inside the Docker container rendered by your browser by navigating to http://localhost:3838.
