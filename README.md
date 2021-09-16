@@ -23,11 +23,11 @@ R -e "shiny::runApp('c25-app-05-07-2021/')"
 Or to deploy the containerized app and deployment environment,
 
 ```bash
-sudo docker build -t c25-app-image .
+cd c25-app-05-07-2021/
 ```
 
 ```bash
-cd c25-app-05-07-2021/
+sudo docker build -t c25-app-image .
 ```
 
 ```bash
