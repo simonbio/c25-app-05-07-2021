@@ -9,17 +9,18 @@ The Risk versus Reward analysis is based on the article: [Quantitative Stock Ana
 
 # How to run
 
-Either,
 
 ```bash
 git clone https://github.com/simonbio/c25-app-05-07-2021
 ```
 
+Either;
+
 ```bash
 R -e "shiny::runApp('c25-app-05-07-2021/')"
 ```
 
-Or to deploy the containerised app and deployment environment,
+Or to deploy the containerized app and deployment environment,
 
 ```bash
 sudo docker build -t c25-app-image .
