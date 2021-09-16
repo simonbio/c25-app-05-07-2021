@@ -24,7 +24,13 @@ Or to deploy the containerized app and deployment environment,
 
 ```bash
 sudo docker build -t c25-app-image .
+```
 
+```bash
+cd c25-app-05-07-2021/
+```
+
+```bash
 sudo docker run --rm -p 3838:3838 c25-app-image
 ```
 
